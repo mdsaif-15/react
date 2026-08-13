@@ -1,5 +1,5 @@
 function Itemtwo(){
-    return <div class="row">
+    return <div class="row kg-row">
           <div class="col-6">
             Go to collage
           </div>
@@ -7,7 +7,7 @@ function Itemtwo(){
             4/10/2023
           </div>
           <div class="col-2">
-            <button type="button" class="btn btn-danger">Delete</button>
+            <button type="button" class="btn btn-danger kg-button">Delete</button>
           </div>
         </div>
 }

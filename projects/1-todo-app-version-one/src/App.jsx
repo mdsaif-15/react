@@ -6,8 +6,7 @@ import AppName from './components/AppName'
 import AddName from './components/AddName'
 import ItemOne from './components/ItemOne'
 import Itemtwo from './components/ItemTwo'
-
-
+import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,8 +15,10 @@ function App() {
       <center>
         <AppName />
         <AddName />
-        <ItemOne />
-        <Itemtwo />
+        <div className='Items-container'>
+          <ItemOne />
+          <Itemtwo />
+        </div>
       </center>
     </div>
   )
