@@ -1,7 +1,11 @@
 import './App.css'
-import ListItems from './components/listitems'
+import ListItems from './components/ListItems.jsx'
+import Title from './components/title.jsx'
 
 function App() {
-  <ListItems />
+  return <div>
+    <Title />
+    <ListItems />
+  </div>
 }
 export default App
