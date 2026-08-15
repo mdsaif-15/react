@@ -1,4 +1,4 @@
-function ErrorMessage() {
+function ErrorMessage({ Items }) {
     //let foodItems = [];
     if (foodItems.length === 0) {
         return (<p>
@@ -7,6 +7,7 @@ function ErrorMessage() {
         </p>
         );
     }
+    return null;
 }
 
 export default ErrorMessage;
