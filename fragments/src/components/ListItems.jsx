@@ -1,20 +1,12 @@
-function ListItems() {
-    // "Dal", "Green Vegetable", "Roti", "Salad", "Milk", "ghee"
+import Item from "./Item";
+function FoodItems() {
     //let foodItems = [];
-    let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "ghee"];
-
-    if (foodItems.length === 0) {
-        return (<p>
-            I am still hungry
-
-        </p>
-        );
-    }
+    let foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "ghee","mango"];
     return (
         <ul class="list-group">
-            {foodItems.map(item => <li key={item} class="list-group-item active">{item}</li>)}
+            {foodItems.map(item => <Item foodItems={item} ></Item>)}
 
         </ul>);
 }
 
-export default ListItems;
+export default FoodItems;
