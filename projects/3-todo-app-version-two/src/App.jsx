@@ -1,24 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import AppName from './components/AppName'
-import AddName from './components/AddName'
-import ItemOne from './components/ItemOne'
-import Itemtwo from './components/ItemTwo'
+import AddTodo from './components/AddTodo'
 import './App.css'
+import TodoItem from './components/TodoItem'
+import TodoItems from './components/TodoItems'
 function App() {
-  const [count, setCount] = useState(0)
+  const todoItems = [
+    {
+      name: "Milk",
+      dueDate: "4/10/2023"
+    },
+    {
+      name: "Go To collage",
+      dueDate: "4/10/2023"
+    },
+    {
+      name: "Bath",
+      dueDate: "Today"
+    }
+
+  ]
 
   return (
     <div>
       <center>
         <AppName />
-        <AddName />
-        <div className='Items-container'>
-          <ItemOne />
-          <Itemtwo />
-        </div>
+        <AddTodo />
+        <TodoItems TodoItems={todoItems} />
       </center>
     </div>
   )

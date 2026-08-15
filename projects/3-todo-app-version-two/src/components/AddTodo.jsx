@@ -1,4 +1,4 @@
-function AddName() {
+function AddTodo() {
     return <div className="row kg-row">
         <div className="col-6">
             <input type="text" placeholder='Enter todo here' />
@@ -11,4 +11,4 @@ function AddName() {
         </div>
     </div>
 }
-export default AddName;
+export default AddTodo;
