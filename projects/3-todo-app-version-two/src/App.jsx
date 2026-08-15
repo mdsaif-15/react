@@ -16,6 +16,22 @@ function App() {
     {
       name: "Bath",
       dueDate: "Today"
+    },
+    {
+      name: "Dring",
+      dueDate: "4/10/2024"
+    },
+    {
+      name :"Eat food",
+      dueDate : "5/10/2024"
+    },
+    {
+      name :"go to home",
+      dueDate :"5/10/2024"
+    },
+    {
+      name :"study",
+      dueDate : "5/10/2024"
     }
 
   ]
