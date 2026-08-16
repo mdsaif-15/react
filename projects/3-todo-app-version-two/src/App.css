@@ -1,16 +1,5 @@
-h1 {
-    font-weight: 600;
-    font-size: 45px;
-    margin: 10px;
-    margin-bottom: 20px;
-}
-
 input {
     width: 100%;
-}
-
-.Items-container {
-    text-align: left;
 }
 
 body {
